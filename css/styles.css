@@ -7,6 +7,104 @@
 
 html {
   font-size: 62.5%;
+  background-color: #f2f2f2;
+}
+
+.card-container {
+  width: 70%;
+  max-width: 700px;
+  margin: 150px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+}
+
+.car-icon {
+  width: 40px;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  color: inherit;
+  padding: 10px 10px;
+  margin-top: auto;
+  width: 110px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.card-1 {
+  color: #e38826;
+  background-color: #e38826;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card-2 {
+  color: #006970;
+  background-color: #006970;
+}
+
+.card-3 {
+  color: #004241;
+  background-color: #004241;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card-1 {
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .card-3 {
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
 }
 
 .attribution {
