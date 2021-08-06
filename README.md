@@ -26,6 +26,7 @@ Desktop screenshot:
 
 Mobile screenshot:
 ![](./Screenshots/Screenshot-mobile.png width="100px")
+<img src="./Screenshots/Screenshot-mobile.png" width="100">
 
 ### Links
 
