@@ -22,7 +22,7 @@ Users should be able to:
 ### Screenshots
 
 ![](./Screenshots/screenshot-desktop.png)
-
+<img src="./Screenshots/screenshot-desktop.png" width="300">
 <img src="./Screenshots/Screenshot-mobile.png" width="300">
 
 ### Links
