@@ -25,7 +25,7 @@ Desktop screenshot:
 ![](./Screenshots/screenshot-desktop.png)
 
 Mobile screenshot:
-![](./Screenshots/Screenshot-mobile.png)
+![](./Screenshots/Screenshot-mobile.png | width=100)
 
 ### Links
 
